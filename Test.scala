@@ -17,7 +17,7 @@ object Test {
     
     var a = 1
     
-    var b = 2
+    val b = 2
     
     import scala.concurrent.Future
     ()

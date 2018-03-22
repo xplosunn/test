@@ -5,7 +5,11 @@ object Test {
 
     var anotherVar = false
 
-      if(someVar && !anotherVar)
-        println("yay")
+    if(someVar && !anotherVar)
+      println("yay")
+    
+    import scala.concurrent.Future
+
+    val a = Future.successful("a")
   }
 }
